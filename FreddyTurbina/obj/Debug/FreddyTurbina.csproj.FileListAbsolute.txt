@@ -32,3 +32,5 @@ C:\Users\bebee\source\repos\FreddyTurbina2\FreddyTurbina\obj\Debug\FreddyTurbina
 C:\Users\bebee\source\repos\FreddyTurbina2\FreddyTurbina\obj\Debug\FreddyTurbina.csproj.CoreCompileInputs.cache
 C:\Users\bebee\source\repos\FreddyTurbina2\FreddyTurbina\obj\Debug\FreddyTurbina.exe
 C:\Users\bebee\source\repos\FreddyTurbina2\FreddyTurbina\obj\Debug\FreddyTurbina.pdb
+C:\Users\bebee\source\repos\FreddyTurbina2\FreddyTurbina\bin\Debug\BibliotecaPersonal.dll
+C:\Users\bebee\source\repos\FreddyTurbina2\FreddyTurbina\bin\Debug\BibliotecaPersonal.pdb

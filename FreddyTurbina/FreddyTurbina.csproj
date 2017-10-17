@@ -109,5 +109,11 @@
   <ItemGroup>
     <Resource Include="Imagenes\ofertas.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BibliotecaPersonal\BibliotecaPersonal.csproj">
+      <Project>{86a5cb3e-3753-4923-b0ec-18cb06a5d41a}</Project>
+      <Name>BibliotecaPersonal</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
