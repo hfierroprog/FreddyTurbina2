@@ -1,0 +1,17 @@
+C:\Users\bebee\source\repos\FreddyTurbina\FreddyTurbina\bin\Debug\FreddyTurbina.exe.config
+C:\Users\bebee\source\repos\FreddyTurbina\FreddyTurbina\bin\Debug\FreddyTurbina.exe
+C:\Users\bebee\source\repos\FreddyTurbina\FreddyTurbina\bin\Debug\FreddyTurbina.pdb
+C:\Users\bebee\source\repos\FreddyTurbina\FreddyTurbina\obj\Debug\FreddyTurbina.csprojResolveAssemblyReference.cache
+C:\Users\bebee\source\repos\FreddyTurbina\FreddyTurbina\obj\Debug\MainWindow.g.cs
+C:\Users\bebee\source\repos\FreddyTurbina\FreddyTurbina\obj\Debug\App.g.cs
+C:\Users\bebee\source\repos\FreddyTurbina\FreddyTurbina\obj\Debug\FreddyTurbina_MarkupCompile.cache
+C:\Users\bebee\source\repos\FreddyTurbina\FreddyTurbina\obj\Debug\FreddyTurbina_MarkupCompile.lref
+C:\Users\bebee\source\repos\FreddyTurbina\FreddyTurbina\obj\Debug\MainWindow.baml
+C:\Users\bebee\source\repos\FreddyTurbina\FreddyTurbina\obj\Debug\FreddyTurbina.g.resources
+C:\Users\bebee\source\repos\FreddyTurbina\FreddyTurbina\obj\Debug\FreddyTurbina.Properties.Resources.resources
+C:\Users\bebee\source\repos\FreddyTurbina\FreddyTurbina\obj\Debug\FreddyTurbina.csproj.GenerateResource.Cache
+C:\Users\bebee\source\repos\FreddyTurbina\FreddyTurbina\obj\Debug\FreddyTurbina.csproj.CoreCompileInputs.cache
+C:\Users\bebee\source\repos\FreddyTurbina\FreddyTurbina\obj\Debug\FreddyTurbina.exe
+C:\Users\bebee\source\repos\FreddyTurbina\FreddyTurbina\obj\Debug\FreddyTurbina.pdb
+C:\Users\bebee\source\repos\FreddyTurbina\FreddyTurbina\obj\Debug\Personal.g.cs
+C:\Users\bebee\source\repos\FreddyTurbina\FreddyTurbina\obj\Debug\Personal.baml
