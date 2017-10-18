@@ -6,3 +6,11 @@ C:\Users\bebee\source\repos\FreddyTurbina2\BibliotecaPersonal\obj\Debug\netstand
 C:\Users\bebee\source\repos\FreddyTurbina2\BibliotecaPersonal\obj\Debug\netstandard1.4\BibliotecaPersonal.AssemblyInfo.cs
 C:\Users\bebee\source\repos\FreddyTurbina2\BibliotecaPersonal\obj\Debug\netstandard1.4\BibliotecaPersonal.dll
 C:\Users\bebee\source\repos\FreddyTurbina2\BibliotecaPersonal\obj\Debug\netstandard1.4\BibliotecaPersonal.pdb
+C:\Users\Momo\Desktop\FreddyTurbina2-master\BibliotecaPersonal\bin\Debug\netstandard1.4\BibliotecaPersonal.deps.json
+C:\Users\Momo\Desktop\FreddyTurbina2-master\BibliotecaPersonal\bin\Debug\netstandard1.4\BibliotecaPersonal.dll
+C:\Users\Momo\Desktop\FreddyTurbina2-master\BibliotecaPersonal\bin\Debug\netstandard1.4\BibliotecaPersonal.pdb
+C:\Users\Momo\Desktop\FreddyTurbina2-master\BibliotecaPersonal\obj\Debug\netstandard1.4\BibliotecaPersonal.csprojResolveAssemblyReference.cache
+C:\Users\Momo\Desktop\FreddyTurbina2-master\BibliotecaPersonal\obj\Debug\netstandard1.4\BibliotecaPersonal.csproj.CoreCompileInputs.cache
+C:\Users\Momo\Desktop\FreddyTurbina2-master\BibliotecaPersonal\obj\Debug\netstandard1.4\BibliotecaPersonal.AssemblyInfo.cs
+C:\Users\Momo\Desktop\FreddyTurbina2-master\BibliotecaPersonal\obj\Debug\netstandard1.4\BibliotecaPersonal.dll
+C:\Users\Momo\Desktop\FreddyTurbina2-master\BibliotecaPersonal\obj\Debug\netstandard1.4\BibliotecaPersonal.pdb

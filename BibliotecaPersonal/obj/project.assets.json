@@ -3703,7 +3703,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bebee\\.nuget\\packages\\": {}
+    "C:\\Users\\Momo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -3711,14 +3711,14 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\bebee\\source\\repos\\FreddyTurbina2\\BibliotecaPersonal\\BibliotecaPersonal.csproj",
+      "projectUniqueName": "C:\\Users\\Momo\\Desktop\\FreddyTurbina2-master\\BibliotecaPersonal\\BibliotecaPersonal.csproj",
       "projectName": "BibliotecaPersonal",
-      "projectPath": "C:\\Users\\bebee\\source\\repos\\FreddyTurbina2\\BibliotecaPersonal\\BibliotecaPersonal.csproj",
-      "packagesPath": "C:\\Users\\bebee\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bebee\\source\\repos\\FreddyTurbina2\\BibliotecaPersonal\\obj\\",
+      "projectPath": "C:\\Users\\Momo\\Desktop\\FreddyTurbina2-master\\BibliotecaPersonal\\BibliotecaPersonal.csproj",
+      "packagesPath": "C:\\Users\\Momo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Momo\\Desktop\\FreddyTurbina2-master\\BibliotecaPersonal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\bebee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Momo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -118,7 +118,7 @@ namespace FreddyTurbina
             }
 
             //Revisamos el estado del checkbox
-            if (cbActivo.IsEnabled)
+            if (cbActivo.IsChecked == true)
             {
                 bici.Activo = "Si";
             }

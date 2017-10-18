@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Momo\Desktop\FreddyTurbina2-master\FreddyTurbina\obj\Debug\
+C:\Users\Momo\Desktop\FreddyTurbina2-master\FreddyTurbina\obj\Release\
 FreddyTurbina
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\Momo\Desktop\FreddyTurbina2-master\FreddyTurbina\App.xaml
 4163026800
 
 8527475181
-68779456293
+68-1025940690
 Bicicletas.xaml;MainWindow.xaml;Ofertas.xaml;Personal.xaml;
 
-False
+True
 

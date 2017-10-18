@@ -110,7 +110,7 @@ namespace FreddyTurbina
                 errores += "\n-El rut debe tener 10 carácteres. Ejemplo: 12345678-0";
             }
             //Evaluar fecha de nacimiento
-            if((DateTime)dteNacimiento.SelectedDate < DateTime.Now)
+            if((DateTime)dteNacimiento.SelectedDate < DateTime.Now.Date)
             {
                 usuario.FechaNacimiento = (DateTime)dteNacimiento.SelectedDate;
             }
@@ -120,7 +120,7 @@ namespace FreddyTurbina
             }
 
             //Evaluar fecha de contrato
-            if ((DateTime)dteContrato.SelectedDate <= DateTime.Now)
+            if ((DateTime)dteContrato.SelectedDate <= DateTime.Now.Date)
             {
                 usuario.FechaContrato = (DateTime)dteContrato.SelectedDate;
             }
