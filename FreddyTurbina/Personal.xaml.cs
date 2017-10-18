@@ -112,7 +112,10 @@ namespace FreddyTurbina
             //Evaluar fecha de nacimiento
             if((DateTime)dteNacimiento.SelectedDate < DateTime.Now.Date)
             {
-                usuario.FechaNacimiento = (DateTime)dteNacimiento.SelectedDate;
+                DateTime nacimiento;
+                nacimiento = (DateTime)dteNacimiento.SelectedDate;
+                usuario.CalcularEdad(nacimiento);
+                usuario.FechaNacimiento = nacimiento.ToString("dd/MM/yyyy");
             }
             else
             {
@@ -122,7 +125,9 @@ namespace FreddyTurbina
             //Evaluar fecha de contrato
             if ((DateTime)dteContrato.SelectedDate <= DateTime.Now.Date)
             {
-                usuario.FechaContrato = (DateTime)dteContrato.SelectedDate;
+                DateTime contrato;
+                contrato = (DateTime)dteContrato.SelectedDate;
+                usuario.FechaContrato = contrato.ToString("dd/MM/yyyy");
             }
             else
             {
@@ -217,8 +222,6 @@ namespace FreddyTurbina
                     break;
             }
 
-            //Calcular Edad
-            usuario.CalcularEdad();
             //Si el formulario se lleno correctamente se ejecuta:
             if(errores.Length == 0)
             {

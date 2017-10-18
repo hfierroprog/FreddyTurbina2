@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 2,
   "targets": {
     ".NETStandard,Version=v1.4": {
       "Microsoft.NETCore.Platforms/1.1.0": {
@@ -3703,31 +3703,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Momo\\.nuget\\packages\\": {}
+    "C:\\Users\\208\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Momo\\Desktop\\FreddyTurbina2-master\\BibliotecaBicicletas\\BibliotecaBicicletas.csproj",
+      "projectUniqueName": "C:\\Users\\208\\Documents\\GitHub\\FreddyTurbina2\\BibliotecaBicicletas\\BibliotecaBicicletas.csproj",
       "projectName": "BibliotecaBicicletas",
-      "projectPath": "C:\\Users\\Momo\\Desktop\\FreddyTurbina2-master\\BibliotecaBicicletas\\BibliotecaBicicletas.csproj",
-      "packagesPath": "C:\\Users\\Momo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Momo\\Desktop\\FreddyTurbina2-master\\BibliotecaBicicletas\\obj\\",
+      "projectPath": "C:\\Users\\208\\Documents\\GitHub\\FreddyTurbina2\\BibliotecaBicicletas\\BibliotecaBicicletas.csproj",
+      "outputPath": "C:\\Users\\208\\Documents\\GitHub\\FreddyTurbina2\\BibliotecaBicicletas\\obj\\",
       "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\Momo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-      ],
       "originalTargetFrameworks": [
         "netstandard1.4"
       ],
-      "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
-      },
       "frameworks": {
         "netstandard1.4": {
           "projectReferences": {}

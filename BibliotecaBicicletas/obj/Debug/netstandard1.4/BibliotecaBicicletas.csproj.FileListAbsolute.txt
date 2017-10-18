@@ -14,3 +14,10 @@ C:\Users\Momo\Desktop\FreddyTurbina2-master\BibliotecaBicicletas\obj\Debug\netst
 C:\Users\Momo\Desktop\FreddyTurbina2-master\BibliotecaBicicletas\obj\Debug\netstandard1.4\BibliotecaBicicletas.AssemblyInfo.cs
 C:\Users\Momo\Desktop\FreddyTurbina2-master\BibliotecaBicicletas\obj\Debug\netstandard1.4\BibliotecaBicicletas.dll
 C:\Users\Momo\Desktop\FreddyTurbina2-master\BibliotecaBicicletas\obj\Debug\netstandard1.4\BibliotecaBicicletas.pdb
+C:\Users\208\Documents\GitHub\FreddyTurbina2\BibliotecaBicicletas\bin\Debug\netstandard1.4\BibliotecaBicicletas.deps.json
+C:\Users\208\Documents\GitHub\FreddyTurbina2\BibliotecaBicicletas\bin\Debug\netstandard1.4\BibliotecaBicicletas.dll
+C:\Users\208\Documents\GitHub\FreddyTurbina2\BibliotecaBicicletas\bin\Debug\netstandard1.4\BibliotecaBicicletas.pdb
+C:\Users\208\Documents\GitHub\FreddyTurbina2\BibliotecaBicicletas\obj\Debug\netstandard1.4\BibliotecaBicicletas.csprojResolveAssemblyReference.cache
+C:\Users\208\Documents\GitHub\FreddyTurbina2\BibliotecaBicicletas\obj\Debug\netstandard1.4\BibliotecaBicicletas.AssemblyInfo.cs
+C:\Users\208\Documents\GitHub\FreddyTurbina2\BibliotecaBicicletas\obj\Debug\netstandard1.4\BibliotecaBicicletas.dll
+C:\Users\208\Documents\GitHub\FreddyTurbina2\BibliotecaBicicletas\obj\Debug\netstandard1.4\BibliotecaBicicletas.pdb

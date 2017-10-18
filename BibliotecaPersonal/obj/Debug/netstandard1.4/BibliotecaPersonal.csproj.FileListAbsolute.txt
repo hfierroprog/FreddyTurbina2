@@ -14,3 +14,10 @@ C:\Users\Momo\Desktop\FreddyTurbina2-master\BibliotecaPersonal\obj\Debug\netstan
 C:\Users\Momo\Desktop\FreddyTurbina2-master\BibliotecaPersonal\obj\Debug\netstandard1.4\BibliotecaPersonal.AssemblyInfo.cs
 C:\Users\Momo\Desktop\FreddyTurbina2-master\BibliotecaPersonal\obj\Debug\netstandard1.4\BibliotecaPersonal.dll
 C:\Users\Momo\Desktop\FreddyTurbina2-master\BibliotecaPersonal\obj\Debug\netstandard1.4\BibliotecaPersonal.pdb
+C:\Users\208\Documents\GitHub\FreddyTurbina2\BibliotecaPersonal\bin\Debug\netstandard1.4\BibliotecaPersonal.deps.json
+C:\Users\208\Documents\GitHub\FreddyTurbina2\BibliotecaPersonal\bin\Debug\netstandard1.4\BibliotecaPersonal.dll
+C:\Users\208\Documents\GitHub\FreddyTurbina2\BibliotecaPersonal\bin\Debug\netstandard1.4\BibliotecaPersonal.pdb
+C:\Users\208\Documents\GitHub\FreddyTurbina2\BibliotecaPersonal\obj\Debug\netstandard1.4\BibliotecaPersonal.csprojResolveAssemblyReference.cache
+C:\Users\208\Documents\GitHub\FreddyTurbina2\BibliotecaPersonal\obj\Debug\netstandard1.4\BibliotecaPersonal.AssemblyInfo.cs
+C:\Users\208\Documents\GitHub\FreddyTurbina2\BibliotecaPersonal\obj\Debug\netstandard1.4\BibliotecaPersonal.dll
+C:\Users\208\Documents\GitHub\FreddyTurbina2\BibliotecaPersonal\obj\Debug\netstandard1.4\BibliotecaPersonal.pdb

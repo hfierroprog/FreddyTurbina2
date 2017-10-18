@@ -10,8 +10,8 @@ namespace BibliotecaPersonal
         public String Ap_paterno { get; set; }
         public String Ap_materno { get; set; }
         public String Rut { get; set; }
-        public DateTime FechaNacimiento { get; set; }
-        public DateTime FechaContrato { get; set; }
+        public String FechaNacimiento { get; set; }
+        public String FechaContrato { get; set; }
         public String AFP { get; set; }
         public String Isapre { get; set; }
         public String Nacionalidad { get; set; }
@@ -20,9 +20,9 @@ namespace BibliotecaPersonal
         public int Edad { get; set; }
         public String cod_trabajador{ get; set; }
 
-        public void CalcularEdad()
+        public void CalcularEdad(DateTime nacimiento)
         {
-            Edad = DateTime.Now.Year - FechaNacimiento.Year;
+            Edad = DateTime.Now.Year - nacimiento.Year;
         }
 
         public void CodigoTrab()
