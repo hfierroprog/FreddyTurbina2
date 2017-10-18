@@ -18,7 +18,9 @@ namespace FreddyTurbina
 
         private void btnBicicleta_Click(object sender, RoutedEventArgs e)
         {
-
+            Bicicletas b = new Bicicletas();
+            b.Show();
+            Close();
         }
 
         private void btnOfertas_Click(object sender, RoutedEventArgs e)

@@ -10,6 +10,14 @@ namespace FreddyTurbina
         Usuario usuario = new Usuario();
         List<Usuario> lista = new List<Usuario>();
 
+        //Contadores
+        byte contarg = 0;
+        byte contbra = 0;
+        byte contchi = 0;
+        byte conturu = 0;
+        byte contpara = 0;
+        byte contperu = 0;
+
         public Personal()
         {
             InitializeComponent();
@@ -101,7 +109,7 @@ namespace FreddyTurbina
             {
                 errores += "\n-El rut debe tener 10 carácteres. Ejemplo: 12345678-0";
             }
-
+            //Evaluar fecha de nacimiento
             if((DateTime)dteNacimiento.SelectedDate < DateTime.Now)
             {
                 usuario.FechaNacimiento = (DateTime)dteNacimiento.SelectedDate;
@@ -111,57 +119,127 @@ namespace FreddyTurbina
                 errores += "\n-La fecha no puede ser mayor o igual a la fecha actual.";
             }
 
+            //Evaluar fecha de contrato
             if ((DateTime)dteContrato.SelectedDate <= DateTime.Now)
             {
-                usuario.FechaNacimiento = (DateTime)dteNacimiento.SelectedDate;
+                usuario.FechaContrato = (DateTime)dteContrato.SelectedDate;
             }
             else
             {
                 errores += "\n-La fecha no puede ser mayor a la fecha actual.";
             }
-
+            //Evaluar AFP
             if(cboAfp.SelectedIndex != 0)
             {
-                usuario.AFP = cboAfp.SelectedIndex.ToString();
+                usuario.AFP = cboAfp.Text;
             }
             else
             {
                 errores += "\n-Debe seleccionar una AFP.";
             }
-
+            //Validar  Isapre
             if (cboIsapre.SelectedIndex != 0)
             {
-                usuario.Isapre = cboIsapre.SelectedIndex.ToString();
+                usuario.Isapre = cboIsapre.Text;
             }
             else
             {
                 errores += "\n-Debe seleccionar una Isapre.";
             }
-
+            //Validar Nacionalidad
             if (cboNacionalidad.SelectedIndex != 0)
             {
-                usuario.Nacionalidad = cboNacionalidad.SelectedIndex.ToString();
+                usuario.Nacionalidad = cboNacionalidad.Text;
             }
             else
             {
                 errores += "\n-Debe seleccionar una Nacionalidad.";
             }
 
-            usuario.CalcularEdad();
+            //Validamos que sea un numero entero
+            if (Int32.TryParse(txtSueldobru.Text,out int sueldobru))
+            {
+                usuario.Sueldo_bru = sueldobru;
+            }
+            else
+            {
+                errores += "\n-Debes ingresar un sueldo bruto con valor entero.";
+            }
 
+            if (Int32.TryParse(txtSueldoliq.Text, out int sueldoliq))
+            {
+                usuario.Sueldo_liq = sueldoliq;
+            }
+            else
+            {
+                errores += "\n-Debes ingresar un sueldo liquido con valor entero.";
+            }
+
+            switch (cboNacionalidad.SelectedIndex)
+            {
+                case 1:
+                    //Aumentamos el contador
+                    this.contarg += 1;
+                    //asignamos el cod_trabajador
+                    usuario.cod_trabajador = contarg.ToString();
+                    //El metodo lo transforma al sig formato: TRAB-$Nacionalidad-$id
+                    usuario.CodigoTrab();
+                    break;
+
+                case 2:
+                    this.contbra += 1;
+                    usuario.cod_trabajador = contbra.ToString();
+                    usuario.CodigoTrab();
+                    break;
+
+                case 3:
+                    this.contchi += 1;
+                    usuario.cod_trabajador = contchi.ToString();
+                    usuario.CodigoTrab();
+                    break;
+
+                case 4:
+                    this.conturu += 1;
+                    usuario.cod_trabajador = conturu.ToString();
+                    usuario.CodigoTrab();
+                    break;
+
+                case 5:
+                    this.contpara += 1;
+                    usuario.cod_trabajador = contpara.ToString();
+                    usuario.CodigoTrab();
+                    break;
+
+                case 6:
+                    this.contperu += 1;
+                    usuario.cod_trabajador = contperu.ToString();
+                    usuario.CodigoTrab();
+                    break;
+            }
+
+            //Calcular Edad
+            usuario.CalcularEdad();
+            //Si el formulario se lleno correctamente se ejecuta:
             if(errores.Length == 0)
             {
+                //Añadir usuario a lista
                 lista.Add(usuario);
+                //DataGrid utilizara la lista como medio de datos
                 dgResultados.ItemsSource = lista;
+                //Se refresca el DataGrid
                 dgResultados.Items.Refresh();
+                //Se crea el usuario
                 usuario = new Usuario();
-
+                //En caso de ejecutarse el codigo correctamente muestra este mensaje
                 MessageBox.Show("Persona agregada con éxito!!");
             }
             else
             {
+                //Caso contrario Muestra campos con errores de entrada
                 MessageBox.Show("Se presentaros los siguientes errores:\n" + errores);
             }
+
+            
         }
 
     }

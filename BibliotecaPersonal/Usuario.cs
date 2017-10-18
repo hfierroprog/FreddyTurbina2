@@ -18,10 +18,16 @@ namespace BibliotecaPersonal
         public int Sueldo_bru { get; set; }
         public int Sueldo_liq { get; set; }
         public int Edad { get; set; }
+        public String cod_trabajador{ get; set; }
 
         public void CalcularEdad()
         {
             Edad = DateTime.Now.Year - FechaNacimiento.Year;
+        }
+
+        public void CodigoTrab()
+        {
+            cod_trabajador = "TRAB-" + Nacionalidad + "-" + cod_trabajador;
         }
     }
 }

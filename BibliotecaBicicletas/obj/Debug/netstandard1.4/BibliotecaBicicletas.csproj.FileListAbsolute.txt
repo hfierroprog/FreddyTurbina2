@@ -1,0 +1,8 @@
+C:\Users\bebee\source\repos\FreddyTurbina2\BibliotecaBicicletas\bin\Debug\netstandard1.4\BibliotecaBicicletas.deps.json
+C:\Users\bebee\source\repos\FreddyTurbina2\BibliotecaBicicletas\bin\Debug\netstandard1.4\BibliotecaBicicletas.dll
+C:\Users\bebee\source\repos\FreddyTurbina2\BibliotecaBicicletas\bin\Debug\netstandard1.4\BibliotecaBicicletas.pdb
+C:\Users\bebee\source\repos\FreddyTurbina2\BibliotecaBicicletas\obj\Debug\netstandard1.4\BibliotecaBicicletas.csprojResolveAssemblyReference.cache
+C:\Users\bebee\source\repos\FreddyTurbina2\BibliotecaBicicletas\obj\Debug\netstandard1.4\BibliotecaBicicletas.csproj.CoreCompileInputs.cache
+C:\Users\bebee\source\repos\FreddyTurbina2\BibliotecaBicicletas\obj\Debug\netstandard1.4\BibliotecaBicicletas.AssemblyInfo.cs
+C:\Users\bebee\source\repos\FreddyTurbina2\BibliotecaBicicletas\obj\Debug\netstandard1.4\BibliotecaBicicletas.dll
+C:\Users\bebee\source\repos\FreddyTurbina2\BibliotecaBicicletas\obj\Debug\netstandard1.4\BibliotecaBicicletas.pdb

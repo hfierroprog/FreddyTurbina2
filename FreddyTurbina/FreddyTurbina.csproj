@@ -54,6 +54,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Bicicletas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -61,6 +65,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Bicicletas.xaml.cs">
+      <DependentUpon>Bicicletas.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -110,6 +117,10 @@
     <Resource Include="Imagenes\ofertas.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BibliotecaBicicletas\BibliotecaBicicletas.csproj">
+      <Project>{7bf6ecaf-4795-4ea2-a5ad-43449b7bcb88}</Project>
+      <Name>BibliotecaBicicletas</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BibliotecaPersonal\BibliotecaPersonal.csproj">
       <Project>{86a5cb3e-3753-4923-b0ec-18cb06a5d41a}</Project>
       <Name>BibliotecaPersonal</Name>

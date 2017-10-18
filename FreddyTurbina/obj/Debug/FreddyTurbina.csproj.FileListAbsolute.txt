@@ -34,3 +34,7 @@ C:\Users\bebee\source\repos\FreddyTurbina2\FreddyTurbina\obj\Debug\FreddyTurbina
 C:\Users\bebee\source\repos\FreddyTurbina2\FreddyTurbina\obj\Debug\FreddyTurbina.pdb
 C:\Users\bebee\source\repos\FreddyTurbina2\FreddyTurbina\bin\Debug\BibliotecaPersonal.dll
 C:\Users\bebee\source\repos\FreddyTurbina2\FreddyTurbina\bin\Debug\BibliotecaPersonal.pdb
+C:\Users\bebee\source\repos\FreddyTurbina2\FreddyTurbina\obj\Debug\Bicicletas.g.cs
+C:\Users\bebee\source\repos\FreddyTurbina2\FreddyTurbina\obj\Debug\Bicicletas.baml
+C:\Users\bebee\source\repos\FreddyTurbina2\FreddyTurbina\bin\Debug\BibliotecaBicicletas.dll
+C:\Users\bebee\source\repos\FreddyTurbina2\FreddyTurbina\bin\Debug\BibliotecaBicicletas.pdb
