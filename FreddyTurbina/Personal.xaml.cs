@@ -192,24 +192,30 @@ namespace FreddyTurbina
                     break;
 
                 case 2:
+                    //Aumentamos contador brasil
                     this.contbra += 1;
+                    //Asignamos el codigo numerico
                     usuario.cod_trabajador = contbra.ToString();
+                    //Transformamos a formato solicitado
                     usuario.CodigoTrab();
                     break;
 
                 case 3:
+                    //Lo mismo que el caso anterior solo que ahora es chile
                     this.contchi += 1;
                     usuario.cod_trabajador = contchi.ToString();
                     usuario.CodigoTrab();
                     break;
 
                 case 4:
+                    //Lo mismo que el caso anterior solo que ahora es Uruguay
                     this.conturu += 1;
                     usuario.cod_trabajador = conturu.ToString();
                     usuario.CodigoTrab();
                     break;
 
                 case 5:
+                    //Lo mismo que el caso
                     this.contpara += 1;
                     usuario.cod_trabajador = contpara.ToString();
                     usuario.CodigoTrab();
