@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibliotecaPersonal", "Bibli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaBicicletas", "BibliotecaBicicletas\BibliotecaBicicletas.csproj", "{7BF6ECAF-4795-4EA2-A5AD-43449B7BCB88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaOfertas", "BibliotecaOfertas\BibliotecaOfertas.csproj", "{0C0C3DDA-9E3F-4429-A7AC-5D2B4B0B87BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{7BF6ECAF-4795-4EA2-A5AD-43449B7BCB88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BF6ECAF-4795-4EA2-A5AD-43449B7BCB88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BF6ECAF-4795-4EA2-A5AD-43449B7BCB88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C0C3DDA-9E3F-4429-A7AC-5D2B4B0B87BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C0C3DDA-9E3F-4429-A7AC-5D2B4B0B87BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C0C3DDA-9E3F-4429-A7AC-5D2B4B0B87BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C0C3DDA-9E3F-4429-A7AC-5D2B4B0B87BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
