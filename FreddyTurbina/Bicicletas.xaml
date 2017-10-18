@@ -21,8 +21,8 @@
         <Label Content="Origen:" HorizontalAlignment="Left" Margin="196,177,0,0" VerticalAlignment="Top" Foreground="#FFAFB42B" FontFamily="Segoe UI Black" FontSize="14"/>
         <ComboBox x:Name="cboOrigen" HorizontalAlignment="Left" Margin="258,179,0,0" VerticalAlignment="Top" Width="118" Height="28"/>
         <CheckBox x:Name="cbActivo" Content="Activo?" HorizontalAlignment="Left" Margin="412,185,0,0" VerticalAlignment="Top" Width="100" Foreground="#FFAFB42B" FontSize="14"/>
-        <DataGrid HorizontalAlignment="Left" Height="151" Margin="27,316,0,0" VerticalAlignment="Top" Width="481"/>
-        <Button Content="Agregar!" HorizontalAlignment="Center"  VerticalAlignment="Top" Width="148" Background="#FFAFB42B" Foreground="White" FontSize="16" Height="40" Margin="196,248,195,0"/>
+        <DataGrid x:Name="dtgListado" HorizontalAlignment="Left" Height="151" Margin="27,316,0,0" VerticalAlignment="Top" Width="481"/>
+        <Button Content="Agregar!" HorizontalAlignment="Center"  VerticalAlignment="Top" Width="148" Background="#FFAFB42B" Foreground="White" FontSize="16" Height="40" Margin="196,248,195,0" Click="Button_Click"/>
 
     </Grid>
 </Window>

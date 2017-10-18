@@ -22,5 +22,10 @@ namespace BibliotecaBicicletas
         {
             Cod_bici = "BIC-" + Modelo + "-" + Marca + "-" + Origen + "-" + prec_venta + "-" + Cod_bici;
         }
+
+        public void calcularGanancia()
+        {
+            ganancia = prec_venta - prec_compra;
+        }
     }
 }

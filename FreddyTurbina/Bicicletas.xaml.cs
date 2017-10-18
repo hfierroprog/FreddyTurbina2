@@ -20,6 +20,10 @@ namespace FreddyTurbina
     /// </summary>
     public partial class Bicicletas : Window
     {
+        bicicleta bici = new bicicleta();
+        List<bicicleta> lista = new List<bicicleta>();
+        int contador = 0;
+
         public Bicicletas()
         {
             InitializeComponent();
@@ -46,6 +50,109 @@ namespace FreddyTurbina
             //Origen
             cboOrigen.Items.Refresh();
             cboOrigen.SelectedIndex = 0;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            contador += 1;
+            String errores = string.Empty;//Variable que almacenara los errores
+
+            //Validamos que se ingrese un modelo
+            if(txtModelo.Text.Length != 0)
+            {
+                bici.Modelo = txtModelo.Text.ToString();
+            }
+            else
+            {
+                errores += "\n-Debe ingresar un modelo.";
+            }
+
+            //Validamos que se ingrese un precio compra
+            if(Int32.TryParse(txtCompra.Text, out int prec_compra))
+            {
+                bici.prec_compra = prec_compra;
+            }
+            else
+            {
+                errores += "\n-Debe ingresar un precio compra.";
+            }
+
+            //Validamos que se ingrese un precio venta
+            if (Int32.TryParse(txtVenta.Text, out int prec_venta))
+            {
+                bici.prec_venta = prec_venta;
+            }
+            else
+            {
+                errores += "\n-Debe ingresar un precio venta.";
+            }
+
+            //Validamos Stock
+            if(Int32.TryParse(txtStock.Text,out int stock))
+            {
+                bici.Stock = stock;
+            }
+            else
+            {
+                errores += "\n-Debe ingresar un Stock valido.";
+            }
+
+            //Validamos que se seleccione opcion valida combobox
+            if(cboMarca.SelectedIndex != 0)
+            {
+                bici.Marca = cboMarca.Text;
+            }
+            else
+            {
+                errores += "\n-Debe seleccionar una marca valida.";
+            }
+
+            //Validamos Origen
+            if(cboOrigen.SelectedIndex != 0)
+            {
+                bici.Origen = cboOrigen.Text;
+            }
+            else
+            {
+                errores += "\n-Debe seleccionar un origen valido.";
+            }
+
+            //Revisamos el estado del checkbox
+            if (cbActivo.IsEnabled)
+            {
+                bici.Activo = "Si";
+            }
+            else
+            {
+                bici.Activo = "No";
+            }
+
+            //Asignamos el contador a codigo
+            bici.Cod_bici = contador.ToString();
+            //Creamos el codigo 
+            bici.crearCod();
+            //Calculamos la ganancia
+            bici.calcularGanancia();
+
+            //Si no hay errores de entrada
+            if (errores.Length == 0)
+            {
+                //Se añade el producto
+                lista.Add(bici);
+                //DataGrid utilizara la lista como medio de datos
+                dtgListado.ItemsSource = lista;
+                //Se refresca el DataGrid
+                dtgListado.Items.Refresh();
+                //Se crea el producto
+                bici = new bicicleta();
+                //Mensaje si es correcto
+                MessageBox.Show("Producto Agregado con Exito!");
+            }
+            else
+            {
+                //Muestra los errores a la hora de rellenar el formulario
+                MessageBox.Show("Se presentaron los siguientes errores:\n" + errores);
+            }
         }
     }
 }

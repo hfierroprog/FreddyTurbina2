@@ -70,7 +70,7 @@ namespace FreddyTurbina
                 errores += "\n-Debe ingresar un nombre.";
             }
 
-            //Validamo apellido paterno
+            //Validamos apellido paterno
             if (txtAppaterno.Text.Length != 0)
             {
                 usuario.Ap_paterno = txtAppaterno.Text;
@@ -80,7 +80,7 @@ namespace FreddyTurbina
                 errores += "\n-Debe ingresar apellido paterno.";
             }
 
-            //Validamo apellido materno
+            //Validamos apellido materno
             if (txtApmaterno.Text.Length != 0)
             {
                 usuario.Ap_materno = txtApmaterno.Text;
@@ -90,7 +90,7 @@ namespace FreddyTurbina
                 errores += "\n-Debe ingresar apellido paterno.";
             }
 
-            //Validamo apellido paterno
+            //Validamos apellido paterno
             if (txtAppaterno.Text.Length != 0)
             {
                 usuario.Ap_paterno = txtAppaterno.Text;
@@ -165,7 +165,7 @@ namespace FreddyTurbina
             {
                 errores += "\n-Debes ingresar un sueldo bruto con valor entero.";
             }
-
+            //Validamos que sea un numero entero
             if (Int32.TryParse(txtSueldoliq.Text, out int sueldoliq))
             {
                 usuario.Sueldo_liq = sueldoliq;
@@ -236,7 +236,7 @@ namespace FreddyTurbina
             else
             {
                 //Caso contrario Muestra campos con errores de entrada
-                MessageBox.Show("Se presentaros los siguientes errores:\n" + errores);
+                MessageBox.Show("Se presentaron los siguientes errores:\n" + errores);
             }
 
             
