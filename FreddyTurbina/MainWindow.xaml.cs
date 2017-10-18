@@ -25,7 +25,9 @@ namespace FreddyTurbina
 
         private void btnOfertas_Click(object sender, RoutedEventArgs e)
         {
-
+            Ofertas o = new Ofertas();
+            o.Show();
+            Close();
         }
 
         //Al hacer click en el personal se ejecutara este codigo:

@@ -87,3 +87,5 @@ C:\Users\208\Documents\GitHub\FreddyTurbina2\FreddyTurbina\obj\Debug\FreddyTurbi
 C:\Users\208\Documents\GitHub\FreddyTurbina2\FreddyTurbina\obj\Debug\FreddyTurbina.csproj.GenerateResource.Cache
 C:\Users\208\Documents\GitHub\FreddyTurbina2\FreddyTurbina\obj\Debug\FreddyTurbina.exe
 C:\Users\208\Documents\GitHub\FreddyTurbina2\FreddyTurbina\obj\Debug\FreddyTurbina.pdb
+C:\Users\208\Documents\GitHub\FreddyTurbina2\FreddyTurbina\bin\Debug\BibliotecaOfertas.dll
+C:\Users\208\Documents\GitHub\FreddyTurbina2\FreddyTurbina\bin\Debug\BibliotecaOfertas.pdb

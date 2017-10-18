@@ -1,0 +1,7 @@
+C:\Users\208\Documents\GitHub\FreddyTurbina2\BibliotecaOfertas\bin\Debug\netstandard1.4\BibliotecaOfertas.deps.json
+C:\Users\208\Documents\GitHub\FreddyTurbina2\BibliotecaOfertas\bin\Debug\netstandard1.4\BibliotecaOfertas.dll
+C:\Users\208\Documents\GitHub\FreddyTurbina2\BibliotecaOfertas\bin\Debug\netstandard1.4\BibliotecaOfertas.pdb
+C:\Users\208\Documents\GitHub\FreddyTurbina2\BibliotecaOfertas\obj\Debug\netstandard1.4\BibliotecaOfertas.csprojResolveAssemblyReference.cache
+C:\Users\208\Documents\GitHub\FreddyTurbina2\BibliotecaOfertas\obj\Debug\netstandard1.4\BibliotecaOfertas.AssemblyInfo.cs
+C:\Users\208\Documents\GitHub\FreddyTurbina2\BibliotecaOfertas\obj\Debug\netstandard1.4\BibliotecaOfertas.dll
+C:\Users\208\Documents\GitHub\FreddyTurbina2\BibliotecaOfertas\obj\Debug\netstandard1.4\BibliotecaOfertas.pdb

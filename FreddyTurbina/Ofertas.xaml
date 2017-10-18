@@ -12,10 +12,10 @@
         <Image HorizontalAlignment="Left" Height="100" Margin="36,260,0,0" VerticalAlignment="Top" Width="100" Source="Imagenes/bici3.jpg"/>
         <Image HorizontalAlignment="Left" Height="100" Margin="354,258,0,0" VerticalAlignment="Top" Width="100" Source="Imagenes/bici4.jpg"/>
         <Image HorizontalAlignment="Left" Height="104" Margin="29,88,0,0" VerticalAlignment="Top" Width="106" Source="Imagenes/bici1.jpg"/>
-        <Button x:Name="btnbici1" Content="Detalles" HorizontalAlignment="Left" Margin="153,138,0,0" VerticalAlignment="Top" Width="75" Background="#FF009688" Foreground="White"/>
-        <Button x:Name="btnbici2" Content="Detalles" HorizontalAlignment="Left" Margin="478,141,0,0" VerticalAlignment="Top" Width="75" Background="#FF009688" Foreground="White"/>
-        <Button x:Name="btnbici3" Content="Detalles" HorizontalAlignment="Left" Margin="150,308,0,0" VerticalAlignment="Top" Width="75" Background="#FF009688" Foreground="White"/>
-        <Button x:Name="btnbici4" Content="Detalles" HorizontalAlignment="Left" Margin="479,309,0,0" VerticalAlignment="Top" Width="75" Background="#FF009688" Foreground="White"/>
+        <Button x:Name="btnbici1" Content="Detalles" HorizontalAlignment="Left" Margin="153,138,0,0" VerticalAlignment="Top" Width="75" Background="#FF009688" Foreground="White" Click="btnbici1_Click"/>
+        <Button x:Name="btnbici2" Content="Detalles" HorizontalAlignment="Left" Margin="478,141,0,0" VerticalAlignment="Top" Width="75" Background="#FF009688" Foreground="White" Click="btnbici2_Click"/>
+        <Button x:Name="btnbici3" Content="Detalles" HorizontalAlignment="Left" Margin="150,308,0,0" VerticalAlignment="Top" Width="75" Background="#FF009688" Foreground="White" Click="btnbici3_Click"/>
+        <Button x:Name="btnbici4" Content="Detalles" HorizontalAlignment="Left" Margin="479,309,0,0" VerticalAlignment="Top" Width="75" Background="#FF009688" Foreground="White" Click="btnbici4_Click"/>
 
     </Grid>
 </Window>

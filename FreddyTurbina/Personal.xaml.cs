@@ -215,7 +215,7 @@ namespace FreddyTurbina
                     break;
 
                 case 5:
-                    //Lo mismo que el caso
+                    //Lo mismo que el caso 
                     this.contpara += 1;
                     usuario.cod_trabajador = contpara.ToString();
                     usuario.CodigoTrab();
